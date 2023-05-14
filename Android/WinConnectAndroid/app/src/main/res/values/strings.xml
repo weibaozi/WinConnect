@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Win Connect</string>
+    <string name="hello_word">Win Connect</string>
+    <string name="click_me">Click Me!</string>
+</resources>

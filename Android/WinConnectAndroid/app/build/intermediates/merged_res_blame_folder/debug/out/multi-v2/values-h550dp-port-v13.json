@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cse115a.winconnect.app-mergeDebugResources-27:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Austin\\.gradle\\caches\\transforms-3\\7ad563ee3dc9d24b965b27f1b5be77b8\\transformed\\material-1.6.1\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}
