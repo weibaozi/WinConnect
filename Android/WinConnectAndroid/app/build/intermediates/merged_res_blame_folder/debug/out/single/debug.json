@@ -1,74 +1,106 @@
 [
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Austin\\.gradle\\daemon\\7.5\\com.cse115a.winconnect.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.cse115a.winconnect.app-merged_res-48:/layout_fragment_notifications.xml.flat",
+        "source": "com.cse115a.winconnect.app-main-50:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.cse115a.winconnect.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.cse115a.winconnect.app-main-31:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Austin\\.gradle\\daemon\\8.0\\com.cse115a.winconnect.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
     }
 ]

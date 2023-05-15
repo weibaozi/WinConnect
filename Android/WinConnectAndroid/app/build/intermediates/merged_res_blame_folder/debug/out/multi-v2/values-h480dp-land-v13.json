@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cse115a.winconnect.app-mergeDebugResources-27:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.cse115a.winconnect.app-mergeDebugResources-46:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Austin\\.gradle\\caches\\transforms-3\\7ad563ee3dc9d24b965b27f1b5be77b8\\transformed\\material-1.6.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\Austin\\.gradle\\caches\\transforms-3\\f97bdc1aead69183f7264f1e4ab1746a\\transformed\\material-1.9.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

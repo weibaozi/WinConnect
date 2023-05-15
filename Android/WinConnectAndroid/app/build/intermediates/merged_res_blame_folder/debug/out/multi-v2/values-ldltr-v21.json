@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cse115a.winconnect.app-mergeDebugResources-27:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.cse115a.winconnect.app-mergeDebugResources-46:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Austin\\.gradle\\caches\\transforms-3\\3b883931d664bd380d5c4e205fd6d522\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Austin\\.gradle\\caches\\transforms-3\\678ac082474fe5fe1e0e16889c26f38f\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
