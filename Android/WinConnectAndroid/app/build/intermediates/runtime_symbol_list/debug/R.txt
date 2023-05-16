@@ -3192,6 +3192,7 @@ int id closest 0x7f080078
 int id collapseActionView 0x7f080079
 int id compress 0x7f08007a
 int id confirm_button 0x7f08007b
+int id connect_button 0x7f08021a
 int id constraint 0x7f08007c
 int id container 0x7f08007d
 int id content 0x7f08007e
@@ -3297,6 +3298,7 @@ int id indeterminate 0x7f0800dd
 int id info 0x7f0800de
 int id invisible 0x7f0800df
 int id inward 0x7f0800e0
+int id ipaddr 0x7f08021b
 int id italic 0x7f0800e1
 int id item_touch_helper_previous_elevation 0x7f0800e2
 int id jumpToEnd 0x7f0800e3
@@ -3419,6 +3421,7 @@ int id peekHeight 0x7f080156
 int id percent 0x7f080157
 int id pin 0x7f080158
 int id play_button 0x7f080213
+int id portnum 0x7f08021c
 int id position 0x7f080159
 int id postLayout 0x7f08015a
 int id pressed 0x7f08015b

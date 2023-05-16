@@ -25,11 +25,13 @@ id app8
 id app9
 id button2
 id button3
+id connect_button
 id container
 id cpu_usage
 id down_button
 id gpu_usage
 id guideline
+id ipaddr
 id left_button
 id mobile_navigation
 id nav_host_fragment_activity_main
@@ -38,6 +40,7 @@ id navigation_dashboard
 id navigation_home
 id navigation_notifications
 id play_button
+id portnum
 id right_button
 id text_dashboard
 id text_home

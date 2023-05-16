@@ -134,4 +134,43 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="205dp" />
 
+    <EditText
+        android:id="@+id/ipaddr"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="IP Address"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <EditText
+        android:id="@+id/portnum"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Port Number"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONNECT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

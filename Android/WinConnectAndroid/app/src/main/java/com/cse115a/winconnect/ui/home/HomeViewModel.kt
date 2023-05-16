@@ -10,4 +10,5 @@ class HomeViewModel : ViewModel() {
         value = "This is da home page"
     }
     val text: LiveData<String> = _text
+
 }
