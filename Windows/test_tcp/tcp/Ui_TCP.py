@@ -138,6 +138,6 @@ class Ui_MainWindow(object):
         self.recieve.setText(_translate("MainWindow", "receive"))
         self.label_2.setText(_translate("MainWindow", "IP:"))
         self.inputIP.setInputMask(_translate("MainWindow", "000.000.000.000"))
-        self.inputIP.setText(_translate("MainWindow", "127.0.0.1"))
+        self.inputIP.setText(_translate("MainWindow", "10.0.0.217"))
         self.label.setText(_translate("MainWindow", "Sender Port"))
         self.recvSwitch.setText(_translate("MainWindow", "CheckBox"))

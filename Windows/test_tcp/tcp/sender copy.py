@@ -1,7 +1,7 @@
 import socket
 
 port = 51234
-ip_address = '127.0.0.1'
+ip_address = '10.0.0.217'
 PHRASE = 'exit'
 def tcp_send(ip_address, port, message):
     # Create a socket object

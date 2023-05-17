@@ -3166,8 +3166,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3193,7 +3191,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
-id connect_button
+id connectButton
 id constraint
 id container
 id content
@@ -3229,7 +3227,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
-id down_button
+id downButton
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3307,8 +3305,8 @@ id jumpToStart
 id labeled
 id layout
 id left
+id leftButton
 id leftToRight
-id left_button
 id legacy
 id line1
 id line3
@@ -3421,7 +3419,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id play_button
+id playButton
 id portnum
 id position
 id postLayout
@@ -3433,8 +3431,8 @@ id ratio
 id rectangles
 id reverseSawtooth
 id right
+id rightButton
 id rightToLeft
-id right_button
 id right_icon
 id right_side
 id rounded
@@ -3446,6 +3444,8 @@ id sawtooth
 id scale
 id screen
 id scroll
+id scrollBack
+id scrollForward
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
@@ -3534,12 +3534,13 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textEnd
+id textHome
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id text_dashboard
-id text_home
+id text_home2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3570,7 +3571,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id up_button
+id upButton
 id useLogo
 id vertical_only
 id view_offset_helper

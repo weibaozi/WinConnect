@@ -14,39 +14,43 @@ import android.widget.TextView
 
 import java.net.*
 import java.io.*
+import java.net.InetAddress
+import java.net.Socket
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
-class TCPClient(private val ipAddress: String, val portNumber: String) {
 
-    val portInt = portNumber.toInt()
-    private var socket: Socket? = null
-    private var outputStream: OutputStream? = null
-    private var inputStream: InputStream? = null
+fun TCPConnect(ipAddressString: String, portNumber: Int, message: String) {
+     GlobalScope.launch(Dispatchers.IO) {
+         try {
+             val ipAddress: InetAddress = InetAddress.getByName(ipAddressString)
+             val socket = Socket(ipAddress, portNumber)
 
-    fun connect() {
-        socket = Socket(ipAddress, portInt)
-        outputStream = socket?.getOutputStream()
-        inputStream = socket?.getInputStream()
-    }
+             // Additional code to handle the connection or perform any desired actions
+             val outputStream = socket.getOutputStream()
 
-    fun send(message: String) {
-        val data = message.toByteArray()
-        outputStream?.write(data)
-    }
+             outputStream.write(message.toByteArray())
+             outputStream.flush()
+             outputStream.close()
 
-    fun receive(): String {
-        val bufferedReader = BufferedReader(InputStreamReader(inputStream))
-        return bufferedReader.readLine()
-    }
+             socket.close()
+         } catch (e: Exception) {
+             e.printStackTrace()
+             // Handle any exceptions that occur during the connection process
+         }
+     }
+}
 
-    fun disconnect() {
-        socket?.close()
-        outputStream?.close()
-        inputStream?.close()
+// Global vars
+class SharedVars {
+    companion object {
+        var ipAddressString: String = "10.0.0.217"
+        var portNumber: Int = 51234
     }
 }
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -67,26 +71,30 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-        //setContentView(R.layout.activity_main)
 
-        val portnum = findViewById<TextView>(R.id.portnum)
-        val connect_button = findViewById<Button>(R.id.connect_button)
-        val ipaddr = findViewById<TextView>(R.id.ipaddr)
-        val text_home = findViewById<TextView>(R.id.text_home)
+//        val portnum = findViewById<TextView>(R.id.portnum)
+//        val connect_button = findViewById<Button>(R.id.connectButton)
+//        val ipaddr = findViewById<TextView>(R.id.ipaddr)
+//        val text_home = findViewById<TextView>(R.id.textHome)
+//
+//        val app1 = findViewById<Button>(R.id.app1)
+//        connect_button.setOnClickListener {
+//
+//            text_home.text = "Connected"
+//            //text_home.text = portnum.text.toString().toInt().javaClass.simpleName
+//
+//            //ipAddressString = ipaddr.text.toString()
+//            //portNumber = portnum.text.toString().toInt()
+//            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "lmaoxdd")
+//
+//        }
+//
+//        app1.setOnClickListener {
+//            text_home.text = "Launched App 1"
+//            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "Launched App 1")
+//
+//        }
 
-
-        connect_button.setOnClickListener {
-            val stringBuilder = StringBuilder()
-            stringBuilder.append(ipaddr.text)
-            stringBuilder.append(":")
-            stringBuilder.append(portnum.text)
-
-            val result = stringBuilder.toString()
-            // text_home.text = result
-            text_home.text = portnum.text.javaClass.simpleName
-
-            val client = TCPClient(ipaddr.text.toString(), portnum.text.toString())
-//            client.connect()
-        }
     }
+
 }
