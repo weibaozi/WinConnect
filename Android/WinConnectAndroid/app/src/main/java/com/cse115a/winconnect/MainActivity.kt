@@ -14,6 +14,8 @@ import android.widget.TextView
 
 import java.net.*
 import java.io.*
+import java.io.BufferedReader
+import java.io.InputStreamReader
 import java.net.InetAddress
 import java.net.Socket
 import kotlinx.coroutines.Dispatchers
@@ -40,6 +42,41 @@ fun TCPConnect(ipAddressString: String, portNumber: Int, message: String) {
              // Handle any exceptions that occur during the connection process
          }
      }
+}
+
+fun TCPReceive(ipAddressString: String, portNumber: Int, message: String) {
+    GlobalScope.launch(Dispatchers.IO) {
+        try {
+            val ipAddress: InetAddress = InetAddress.getByName(ipAddressString)
+            val socket = Socket(ipAddress, portNumber)
+
+            // Create a BufferedReader to read messages from the socket
+            val reader = BufferedReader(InputStreamReader(socket.inputStream))
+
+            while (true) {
+                // Read a line from the socket
+                val ms = reader.readLine()
+
+                // Process the received message
+                // Add your code here to handle the received message
+
+                // Example: Print the received message
+                handleMessage(ms)
+            }
+
+            socket.close()
+        } catch (e: Exception) {
+            e.printStackTrace()
+            // Handle any exceptions that occur during the connection process
+        }
+    }
+}
+
+// Define a function to handle the message received
+fun handleMessage(message: String) {
+    // Process the received message here
+    // This function will be called when a message is received
+    println("Received message: $message")
 }
 
 // Global vars
