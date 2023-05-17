@@ -7,6 +7,8 @@ import time
 from threading import Thread
 from receiver import tcp_receive
 from sender import tcp_send
+from WinDecode import decode_function
+import socket
 class my_signal(QObject):
     setRecvText=pyqtSignal(str)
 my_signal=my_signal()
@@ -33,7 +35,7 @@ class MyMainForm(QMainWindow, Ui_MainWindow):
     def recv_switch(self):
         if self.ui.recvSwitch.isChecked():
             port=self.ui.recvPort.value()
-            recvThread=Thread(target=tcp_receive,args=(port, my_signal.setRecvText.emit))
+            recvThread=Thread(target=tcp_receive,args=(port,decode_function, my_signal.setRecvText.emit))
             recvThread.start()
             # my_signal.setRecvText.emit("start receiving")
         else:
