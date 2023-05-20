@@ -19,6 +19,9 @@ g++ -o sender sender.cpp
 ## Running
 ./sender [file_path]
 
+## Files
+- Sender.cpp
+- Makefile
 
 ## Notes
 
