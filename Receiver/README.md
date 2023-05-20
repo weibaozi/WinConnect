@@ -18,8 +18,8 @@ g++ -o receiver receiver.cpp
 ./receiver
 
 ## Files
--receiver.cpp
--Makefile
+- receiver.cpp
+- Makefile
 
 ## Notes
 
