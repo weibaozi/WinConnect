@@ -22,7 +22,7 @@ g++ -o sender sender.cpp
 
 ## Notes
 
-- Make sure the sender program is running and connected to the receiver before running the receiver program.
+- Make sure receiver program is running before run the sender program.
 - The receiver program listens for incoming connections on port `8080`. Modify the code to change the listening port as needed.
 - The program notifies the user when a connection is established and when the file transfer is in progress.
 - The received file is saved in the same directory with the name provided by the sender.
