@@ -20,7 +20,7 @@ g++ -o sender sender.cpp
 ./sender [file_path]
 
 ## Files
-- Sender.cpp
+- sender.cpp
 - Makefile
 
 ## Notes
