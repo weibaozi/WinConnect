@@ -15,6 +15,7 @@ This program receives a file over a TCP connection from a sender program. It lis
 g++ -o receiver receiver.cpp
 
 ## Running
+./receiver
 
 ## Notes
 
