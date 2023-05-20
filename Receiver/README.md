@@ -17,6 +17,10 @@ g++ -o receiver receiver.cpp
 ## Running
 ./receiver
 
+Files
+-receiver.cpp
+-Makefile
+
 ## Notes
 
 - The receiver program listens for incoming connections on port `8080`. Modify the code to change the listening port as needed.
