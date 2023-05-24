@@ -29,6 +29,8 @@ def decode_function(text):
             pyautogui.press("volumeup")
         elif words[1] == "down":
             pyautogui.press("volumedown")
+        elif words[1] == "mute":
+            pyautogui.press("volumemute")
     else:
         print("Command not found")
 
