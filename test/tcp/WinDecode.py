@@ -24,6 +24,11 @@ def decode_function(text):
             pyautogui.press("nexttrack")
         elif words[1] == "prev":
             pyautogui.press("prevtrack")
+    elif words[0] == "volume":
+        if words[1] == "up":
+            pyautogui.press("volumeup")
+        elif words[1] == "down":
+            pyautogui.press("volumedown")
     else:
         print("Command not found")
 
