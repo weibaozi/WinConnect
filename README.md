@@ -17,6 +17,5 @@ In this update of WinConnect PC, we have introduced new features, fixed some bug
 ### New Files Added
 
 1. **hardwareInfo.py**: This new file has been added to the WinConnect PC program. It contains the necessary code to retrieve and display the hardware information on the PC program. The hardwareInfo.py file is responsible for collecting the system's hardware data/
-2. 
-3. **hardwareInfoSender.py**: Another new file, hardwareInfoSender.py, has also been added to WinConnect PC which sending hardware data to mobile reveiver via TCP.
+2. **hardwareInfoSender.py**: Another new file, hardwareInfoSender.py, has also been added to WinConnect PC which sending hardware data to mobile reveiver via TCP.
 
