@@ -10,7 +10,7 @@
 
 ### Bugs Fixed
 
-1. **Program Freeze While Creating Multiple Socket**: We have addressed a bug that caused the WinConnect PC program to freeze when attempting to create multiple receiving sockets.
+1. **Program Freeze While Creating Multiple Socket**: a bug that caused the WinConnect PC program to freeze when attempting to create multiple receiving sockets.
 
 ### New Files Added
 
