@@ -4,7 +4,7 @@
 
 ### New Features Added
 
-1. **Hardware Info Displayed on PC Program**: With this update, you can now view detailed hardware information directly within the WinConnect PC program. This feature provides you with essential data about your computer's hardware components, such as CPU, RAM, storage devices, graphics card, and more. It enables you to have a comprehensive overview of your system's specifications at a glance.
+1. **Hardware Info Displayed on PC Program**: With this update, you can now view detailed hardware information directly within the WinConnect PC program. This feature provides you with essential data about your computer's hardware components, such as CPU, RAM.
 
 2. **Hardware Data Sending**: Adding a new functionality that allows you to send hardware data from your PC to external devices or servers. To initiate the data sending process, click the "SendBox" checkBox in the WinConnect PC program interface. Before clicking the SendBox, make sure to edit the IP address and port number that match your receiving device in the program. 
 
