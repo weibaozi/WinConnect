@@ -20,10 +20,3 @@ In this update of WinConnect PC, we have introduced new features, fixed some bug
 
 2. **hardwareInfoSender.py**: Another new file, hardwareInfoSender.py, has also been added to WinConnect PC. This file handles the functionality related to sending hardware data from your PC to external devices or servers. It provides the necessary code to establish connections and transmit the collected hardware information securely.
 
-Please note that this readme document pertains to the specific update released on 05/29/2023. For any further updates or changes to the program, refer to the respective readme files accompanying those updates.
-
-We hope that these new features, bug fixes, and the addition of the hardwareInfo.py and hardwareInfoSender.py files enhance your experience with WinConnect PC. If you encounter any issues or have suggestions for future updates, please don't hesitate to reach out to our support team.
-
-Thank you for choosing WinConnect PC!
-
--The WinConnect PC Development Team
