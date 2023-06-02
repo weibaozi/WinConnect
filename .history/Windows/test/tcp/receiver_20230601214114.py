@@ -1,7 +1,12 @@
 import socket
 
-port = 31234
+<<<<<<< HEAD:test/tcp/receiver.py
+port = 8787
 ip_address = '127.0.0.1'
+=======
+port = 51234
+ip_address = '10.0.0.217'
+>>>>>>> main:Windows/test/tcp/receiver.py
 PHRASE = 'exit'
 def tcp_receive(port,func=None, debug_func=None):
    # Create a socket object

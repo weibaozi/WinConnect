@@ -1,6 +1,6 @@
 import socket
 
-port = 31234
+port = 8787
 ip_address = '127.0.0.1'
 PHRASE = 'exit'
 def tcp_receive(port,func=None, debug_func=None):
