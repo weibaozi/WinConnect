@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">WinConnect</string>
-    <string name="title_home">Launch Apps</string>
-    <string name="title_dashboard">Hardware Monitor</string>
-    <string name="title_notifications">Media Controls</string>
-</resources>
