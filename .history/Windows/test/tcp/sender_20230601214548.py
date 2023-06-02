@@ -1,6 +1,6 @@
 import socket
 
-port = 8080
+port = 31234
 ip_address = '127.0.0.1'
 PHRASE = 'exit'
 
