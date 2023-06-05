@@ -36,3 +36,7 @@ Added an IP display on the UI. The IP address is now prominently visible, enabli
 
 ### 3. Error Message Prompt on UI
 An error message prompt on the UI. Whenever an error occurs, you will now receive a clear and informative message on the UI, helping you understand the issue and take appropriate action. This feature streamlines the troubleshooting process and ensures a smoother user experience.
+
+### New Files Added
+1. PathSaver.py
+
