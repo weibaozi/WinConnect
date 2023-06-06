@@ -10,7 +10,7 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import math
 import time,socket
-from PathSaver import get_path, get_numPath, get_shortcut_path
+from PathSaver import get_path, get_numPath, get_shortcut_path,get_pathList
 import webbrowser
 def volume_to_db(volume_level):
     # Map the volume level to the dB range (rough approximation)
@@ -49,11 +49,18 @@ def decode_function(text):
             subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe", "https://soundcloud.com/you/likes"])                                     
         else:
             #print(words[1])
+            allshortcuts_new ={}
             app=words[1]
-            matching_apps = [key for key in allshortcuts.keys() if app.lower() in key.lower()]
+            newfile=get_pathList()
+            for file in newfile:
+                filename=os.path.basename(file)
+                allshortcuts_new[filename]=file
+            allshortcuts_new.update(allshortcuts)
+            allshortcuts_new=dict(sorted(allshortcuts_new.items()))
+            matching_apps = [key for key in allshortcuts_new.keys() if app.lower() in key.lower()]
             if len(matching_apps) >= 1:
                 print("find: ", matching_apps)
-                subprocess.Popen(allshortcuts[matching_apps[0]], shell=True)
+                subprocess.Popen(allshortcuts_new[matching_apps[0]], shell=True)
                 return_message= "starting "+matching_apps[0]
             else:
                 return_message="appnotfound"
