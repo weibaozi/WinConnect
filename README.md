@@ -19,4 +19,3 @@
 
 
 ![5E52A3D0-9CC0-4523-B8B1-20B88C63EEB5_1_101_o]([relative/path/to/image.png](https://github.com/weibaozi/WinConnect/assets/123599069/27e1bf2e-f864-4345-ae2b-fea942be2f96)
-<img src="relative/path/to/image.png" alt="5E52A3D0-9CC0-4523-B8B1-20B88C63EEB5_1_101_o" width="300">
