@@ -1,6 +1,6 @@
 # WinConnect IOS App
 
-### Demo of the App
+## Demo of the App
 
 <p align="center" style="display: flex; justify-content: center; gap: 40px;">
   <img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
@@ -9,28 +9,29 @@
 </p>
 
 
-### Summary
+## Summary
 The WinConnect iOS App is a remote assistance application that allows you to control your PC from your iOS device. With this app, you can remotely open applications on your PC, monitor hardware information, and control media playback. Please note that this app is currently in the testing phase, and certain functions may still be undergoing debugging.
 
 ## Features
 
-### Remote App Opening
-
-<img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
+### Remote Launching App 
 
 The WinConnect iOS App enables you to remotely open applications on your PC. By establishing a connection between your iOS device and the PC, you can initiate the opening of applications directly from your phone.
 
-### Hardware Monitor
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
 
-<img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" />
+
+### Hardware Monitor
 
 With the hardware monitor functionality, you can view detailed information about your PC's hardware components. Once connected to your PC, the app allows you to retrieve essential data, such as CPU and RAM information, providing you with valuable insights into your computer's performance.
 
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" />
+
 ### Media Control
 
-<img src="https://github.com/weibaozi/WinConnect/assets/123599069/ca339bae-f1f8-45b2-8762-c3d3e2611604" alt="Image 3" width="300" />
-
 Take control of your media playback using the WinConnect iOS App. Through the app, you can remotely control media playback on your PC, allowing you to play, pause, adjust volume, and perform other media-related actions from your iOS device.
+
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/ca339bae-f1f8-45b2-8762-c3d3e2611604" alt="Image 3" width="300" />
 
 ## How to Use
 
