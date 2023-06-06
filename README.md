@@ -1,21 +1,60 @@
-# WinConnect PC Program
+# WinConnect IOS App
 
-## Update - 05/29/2023
+### Demo of the App
+<p align="center">
+  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
+  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" />
+  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/ca339bae-f1f8-45b2-8762-c3d3e2611604" alt="Image 3" width="300" />
+</p>
 
-### New Features Added
 
-1. **Hardware Info Displayed on PC Program**: With this update, you can now view detailed hardware information directly within the WinConnect PC program. This feature provides you with essential data about your computer's hardware components, such as CPU, RAM.
+The WinConnect iOS App is a remote assistance application that allows you to control your PC from your iOS device. With this app, you can remotely open applications on your PC, monitor hardware information, and control media playback. Please note that this app is currently in the testing phase, and certain functions may still be undergoing debugging.
 
-2. **Hardware Data Sending**: Adding a new functionality that allows you to send hardware data from your PC to external devices or servers. To initiate the data sending process, click the "SendBox" checkBox in the WinConnect PC program interface. Before clicking the SendBox, make sure to edit the IP address and port number that match your receiving device in the program. 
+## Features
 
-### Bugs Fixed
+### Remote App Opening
 
-1. **Program Freeze While Creating Multiple Socket**: a bug that caused the WinConnect PC program to freeze when attempting to create multiple receiving sockets.
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
 
-### New Files Added
+The WinConnect iOS App enables you to remotely open applications on your PC. By establishing a connection between your iOS device and the PC, you can initiate the opening of applications directly from your phone.
 
-1. **hardwareInfo.py**: This new file has been added to the WinConnect PC program. It contains the necessary code to retrieve and display the hardware information on the PC program. The hardwareInfo.py file is responsible for collecting the system's hardware data/
-2. **hardwareInfoSender.py**: Another new file, hardwareInfoSender.py, has also been added to WinConnect PC which sending hardware data to mobile reveiver via TCP.
-![5E52A3D0-9CC0-4523-B8B1-20B88C63EEB5_1_101_o](https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe)
-<img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="5E52A3D0-9CC0-4523-B8B1-20B88C63EEB5_1_101_o" width="300">
+### Hardware Monitor
+
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" />
+
+With the hardware monitor functionality, you can view detailed information about your PC's hardware components. Once connected to your PC, the app allows you to retrieve essential data, such as CPU and RAM information, providing you with valuable insights into your computer's performance.
+
+### Media Control
+
+<img src="https://github.com/weibaozi/WinConnect/assets/123599069/ca339bae-f1f8-45b2-8762-c3d3e2611604" alt="Image 3" width="300" />
+
+Take control of your media playback using the WinConnect iOS App. Through the app, you can remotely control media playback on your PC, allowing you to play, pause, adjust volume, and perform other media-related actions from your iOS device.
+
+## How to Use
+
+To use the WinConnect iOS App, follow these steps:
+
+1. Establish a Connection with Your PC:
+   - Launch the WinConnect PC Program on your PC.
+   - In the program interface, you will find a prompt displaying your PC's IP address. Make a note of this IP address.
+   - Open the WinConnect iOS App on your iOS device.
+   - In the app, enter the IP address of your PC and set the port number to match your PC's settings.
+   - Tap the "Connect" button in the app to initiate the connection process.
+   - On the PC program, click the "Connect" button to start listening for the connection.
+   - Once the connection is established and confirmed on the PC program, you are ready to remotely control your PC using the app.
+
+2. Remote App Opening:
+   - With the connection established, you can now remotely open applications on your PC.
+   - Within the app interface, select the desired application you wish to open on your PC, and initiate the command from your iOS device.
+
+3. Hardware Monitor:
+   - Once connected to your PC, you can monitor the hardware information.
+   - In the app interface, you will find a checkbox labeled "SendInfo". Tap this checkbox to start receiving hardware information from your PC to your iOS device.
+
+**Note:** The WinConnect iOS App is currently in the testing phase, and certain functions may still be undergoing debugging. Please bear this in mind and report any issues or inconsistencies you encounter during usage.
+
+
+
+
+
 
