@@ -1,11 +1,13 @@
 # WinConnect IOS App
 
 ### Demo of the App
-<p align="center">
-  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" style="margin-right: 20px;" />
-  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" style="margin-right: 20px;" />
+
+<p align="center" style="display: flex; justify-content: center; gap: 40px;">
+  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/8b657d5a-1859-41a0-a604-00fed577c7fe" alt="Image 1" width="300" />
+  <img src="https://github.com/weibaozi/WinConnect/assets/123599069/f3986bd0-1f99-4044-bd12-a62b75279d67" alt="Image 2" width="300" />
   <img src="https://github.com/weibaozi/WinConnect/assets/123599069/ca339bae-f1f8-45b2-8762-c3d3e2611604" alt="Image 3" width="300" />
 </p>
+
 
 ### Summary
 The WinConnect iOS App is a remote assistance application that allows you to control your PC from your iOS device. With this app, you can remotely open applications on your PC, monitor hardware information, and control media playback. Please note that this app is currently in the testing phase, and certain functions may still be undergoing debugging.
