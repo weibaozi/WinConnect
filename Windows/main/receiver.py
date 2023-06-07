@@ -1,4 +1,6 @@
 import socket
+from WinDecode import keypressed
+import keyboard
 #from WinDecode import decode_function
 
 #port = 31234
@@ -47,6 +49,8 @@ def tcp_receive(port, updata_status, func=None, debug_func=None):
                     text = data.decode('utf-8')
                     print(f'Received: {text}')
                     if text.strip() == PHRASE:
+                        for key in keypressed:
+                            keyboard.release(key)
                         print(f'Received {PHRASE}, closing connection...')
                         conn.send("exit".encode())
                         conn.close()

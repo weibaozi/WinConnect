@@ -24,6 +24,7 @@ def volume_to_db(volume_level):
 
     
 allshortcuts = get_shortcut_path()
+keypressed = set()
 
 # print(allshortcuts["calc"])
 
@@ -112,6 +113,16 @@ def decode_function(text):
         time.sleep(0.05)
         for key in keys:
             keyboard.release(key)
+    elif words[0] == "keypress":
+        keys=words[1].split(' ')
+        for key in keys:
+            keyboard.press(key)
+            keypressed.add(key)
+    elif words[0] == "keyrelease":
+        keys = words[1].split(' ')
+        for key in keys:
+            keyboard.release(key)
+            keypressed.remove(key)
     else:
         print("Command not found")
     return return_message

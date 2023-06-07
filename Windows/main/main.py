@@ -16,6 +16,7 @@ from PyQt5.QtCore import Qt
 import os
 from qfluentwidgets import setThemeColor, FluentTranslator
 from qframelesswindow import FramelessWindow
+import keyboard
 allshortcuts= get_shortcut_path()
 port_range= range(10000, 20000)
 
