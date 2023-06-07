@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'g:\study\work\cse115\test\WinConnected-PC-3.0-Update\tcp\Win_UI\TCP.ui'
+# Form implementation generated from reading ui file 'g:\study\work\cse115\git\WinConnect\Windows\main\Win_UI\TCP.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -57,13 +57,14 @@ class Ui_MainWindow(object):
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
         self.IpLabel = QtWidgets.QLabel(self.page)
-        self.IpLabel.setGeometry(QtCore.QRect(200, 40, 211, 20))
+        self.IpLabel.setGeometry(QtCore.QRect(70, 40, 461, 20))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(12)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
+        font.setStrikeOut(False)
         self.IpLabel.setFont(font)
         self.IpLabel.setObjectName("IpLabel")
         self.fileListWidget = QtWidgets.QListWidget(self.page)
@@ -79,7 +80,7 @@ class Ui_MainWindow(object):
         self.fileListWidget.setFont(font)
         self.fileListWidget.setObjectName("fileListWidget")
         self.portLabel = QtWidgets.QLabel(self.page)
-        self.portLabel.setGeometry(QtCore.QRect(200, 70, 211, 20))
+        self.portLabel.setGeometry(QtCore.QRect(70, 70, 421, 20))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(12)
@@ -89,7 +90,7 @@ class Ui_MainWindow(object):
         self.portLabel.setFont(font)
         self.portLabel.setObjectName("portLabel")
         self.layoutWidget = QtWidgets.QWidget(self.page)
-        self.layoutWidget.setGeometry(QtCore.QRect(81, 469, 77, 89))
+        self.layoutWidget.setGeometry(QtCore.QRect(67, 469, 91, 89))
         self.layoutWidget.setObjectName("layoutWidget")
         self.verticalLayout_6 = QtWidgets.QVBoxLayout(self.layoutWidget)
         self.verticalLayout_6.setContentsMargins(0, 0, 0, 0)

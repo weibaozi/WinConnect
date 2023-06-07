@@ -19,9 +19,9 @@ def tcp_receive(port, updata_status, func=None, debug_func=None):
 
     # Bind the socket to a local host and port
     try:
-        s.bind((ip_address, port))
+        s.bind(("", port))
     except socket.error as e:
-        updata_status(3, f"Error binding socket: Please use other port number")
+        #updata_status(3, f"Error binding socket: Please use other port number")
         print(f'Error binding socket: {e}')
         return
     # Listen for incoming connections
@@ -31,9 +31,9 @@ def tcp_receive(port, updata_status, func=None, debug_func=None):
         print('Waiting for a new connection...')
         
         # Wait for a client to connect
-        updata_status(2)
+        #updata_status(2)
         conn, addr = s.accept()
-        updata_status(1)
+        #updata_status(1)
 
         # Receive data until the client disconnects
         with conn:

@@ -59,7 +59,7 @@ class MyMainForm(QMainWindow, Ui_MainWindow):
         s= socket.socket()
         for port in port_range:
             try:
-                s.bind(("", port))
+                s.bind(('', port))
                 
                 valid_port= port
                 break
