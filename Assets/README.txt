@@ -1,0 +1,1 @@
+For more, go to Android\WinConnectAndroid\app\src\main\res\drawable

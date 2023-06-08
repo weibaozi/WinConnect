@@ -1,0 +1,4 @@
+
+Find icon order in https://github.com/primefaces/primeicons/blob/master/README.md
+Type icon name and set it to 400x400 on this site https://icon-sets.iconify.design/prime/caret-right/
+PS them to convert from SVG to PNG

@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textHome"
-        android:layout_width="220dp"
-        android:layout_height="24dp"
+        android:layout_width="353dp"
+        android:layout_height="31dp"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,6 +72,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.736" />
 
+    <EditText
+        android:id="@+id/chromeURL"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="URL (Optional)"
+        android:inputType="text"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264" />
+
+    <EditText
+        android:id="@+id/customApp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="App Name"
+        android:inputType="text"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
     <ImageButton
         android:id="@+id/app6"
         android:layout_width="100dp"
@@ -92,7 +122,7 @@
         android:text="CONNECT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
@@ -104,7 +134,7 @@
         android:text="LISTEN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
@@ -119,7 +149,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <EditText
         android:id="@+id/portnum"
@@ -179,7 +209,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="App 9"
-        android:background="@drawable/calculator_icon"
+        android:background="@drawable/custom_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.89"
@@ -219,7 +249,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="App 8"
-        android:background="@drawable/lr_icon"
+        android:background="@drawable/calculator_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -236,28 +266,14 @@
 
     <TextView
         android:id="@+id/receivMsg"
-        android:layout_width="160dp"
-        android:layout_height="48dp"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
         android:text="Whatever is received"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/app8"
-        app:layout_constraintVertical_bias="0.768" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Chrome"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268"
-        tools:visibility="invisible" />
+        app:layout_constraintVertical_bias="0.766" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,7 @@ import com.cse115a.winconnect.databinding.FragmentNotificationsBinding
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.SeekBar
+import android.widget.Toast
 import android.widget.ToggleButton
 import com.cse115a.winconnect.R
 import com.cse115a.winconnect.SharedVars
@@ -40,9 +41,9 @@ class NotificationsFragment : Fragment(){
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
+        val mediaStatus: TextView = binding.mediactrlStatus
         notificationsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+            mediaStatus.text = it
         }
 
         // Media control button actions
@@ -56,8 +57,20 @@ class NotificationsFragment : Fragment(){
         val volumeSeekBar: SeekBar = binding.volumeSeekBar
         val volumeSlider: TextView = binding.volumeStats
 
+        val escapeButton: ImageButton = binding.escapeButton
+        val fullscreenButton: ImageButton = binding.fullscreenButton
+        val alttabButton: ImageButton = binding.alttabButton
+        val ctrlwButton: ImageButton = binding.ctrlwButton
+        val spaceButton: ImageButton = binding.spaceButton
+        val enterButton: ImageButton = binding.enterButton
+        val leftclickButton: ImageButton = binding.leftclickButton
+        val rightclickButton: ImageButton = binding.rightclickButton
+        val customButton: ImageButton = binding.customkbButton
+        val customkbcmd: TextView = binding.customkbcmd
+
         var isPlaying = false
         playButton.setOnClickListener {
+            mediaStatus.text = "Play/Pause Button Pressed"
             isPlaying = !isPlaying
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "media play")
             if (isPlaying) {
@@ -69,32 +82,38 @@ class NotificationsFragment : Fragment(){
         }
 
         scrollBack.setOnClickListener {
+            mediaStatus.text = "Previous Song Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "media prev")
             Log.d("Buttons", "scrollback")
         }
 
         scrollForward.setOnClickListener {
+            mediaStatus.text = "Next Song Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "media next")
             Log.d("Buttons", "scrollforward")
         }
 
         upButton.setOnClickListener {
+            mediaStatus.text = "Up Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "arrow up")
             Log.d("Buttons", "up")
         }
 
 
         downButton.setOnClickListener {
+            mediaStatus.text = "Down Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "arrow down")
             Log.d("Buttons", "down")
         }
 
         leftButton.setOnClickListener {
+            mediaStatus.text = "Left Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "arrow left")
             Log.d("Buttons", "left")
         }
 
         rightButton.setOnClickListener {
+            mediaStatus.text = "Right Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "arrow right")
             Log.d("Buttons", "right")
         }
@@ -110,6 +129,70 @@ class NotificationsFragment : Fragment(){
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
+
+        escapeButton.setOnClickListener {
+            mediaStatus.text = "Escape Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key esc")
+            Log.d("Buttons", "esc")
+        }
+
+        fullscreenButton.setOnClickListener {
+            mediaStatus.text = "Fullscreen Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key ctrl+f5")
+            Log.d("Buttons", "f")
+        }
+
+        alttabButton.setOnClickListener {
+            mediaStatus.text = "Alt+Tab Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key alt+tab")
+            Log.d("Buttons", "alttab")
+        }
+
+        ctrlwButton.setOnClickListener {
+            mediaStatus.text = "Ctrl+W Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key ctrl+w")
+            Log.d("Buttons", "ctrlw")
+        }
+
+        spaceButton.setOnClickListener {
+            mediaStatus.text = "Space Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key space")
+            Log.d("Buttons", "space")
+        }
+
+        enterButton.setOnClickListener {
+            mediaStatus.text = "Enter Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key enter")
+            Log.d("Buttons", "enter")
+        }
+
+        leftclickButton.setOnClickListener {
+            mediaStatus.text = "Left Click Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "mouse leftclick")
+            Log.d("Buttons", "leftclick")
+        }
+
+        rightclickButton.setOnClickListener {
+            mediaStatus.text = "Right Click Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "mouse rightclick")
+            Log.d("Buttons", "rightclick")
+        }
+
+        customButton.setOnClickListener {
+            mediaStatus.text = "Custom Keyboard Command Button Pressed"
+            if (customkbcmd.text.toString() == "") {
+                // Toast.makeText(context, "Please enter a command", Toast.LENGTH_SHORT).show()
+                mediaStatus.text = "Please enter a command"
+                return@setOnClickListener
+            } else {
+                //Toast.makeText(context, "Sending command: ${customkbcmd.text}", Toast.LENGTH_SHORT).show()
+                mediaStatus.text = "Sending kb command: ${customkbcmd.text}"
+                TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key ${customkbcmd.text}")
+            }
+            
+            Log.d("Buttons", "customkb")
+        }
+
 
 
         return root

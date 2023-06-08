@@ -12,19 +12,9 @@ import math
 import time,socket
 from PathSaver import get_path, get_numPath, get_shortcut_path,get_pathList
 import webbrowser
-def volume_to_db(volume_level):
-    # Map the volume level to the dB range (rough approximation)
-    if volume_level == 0:
-        db_value = -75
-    else:
-        db_value = 35 * math.log10(volume_level / 100)
-    return db_value 
 
-
-
-    
+ 
 allshortcuts = get_shortcut_path()
-keypressed = set()
 
 # print(allshortcuts["calc"])
 
@@ -46,8 +36,8 @@ def decode_function(text):
     return_message=None
     words = text.split(' ', 1)
     if words[0] == "startapp":
-        if words[1] == "soundcloud":
-            subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe", "https://soundcloud.com/you/likes"])                                     
+        if words[1] == "calc":
+            subprocess.Popen(["calc.exe"])                                     
         else:
             #print(words[1])
             allshortcuts_new ={}
@@ -67,9 +57,15 @@ def decode_function(text):
                 return_message="appnotfound"
                 
                 print("Error: App not found ")
+
     elif words[0] == "startweb":
         url = words[1]
-        webbrowser.open(url)
+        # This opens default browser, but for some reason, it opens IE when my default browser is Chrome
+        #webbrowser.open_new_tab(url)
+
+        # Will require to add path C:\Program Files\Google\Chrome\Application in env vars
+        webbrowser.get('chrome %s').open(url)
+
     elif words[0] == "arrow":
         if words[1] == "up":
             keyboard.press('up')
@@ -101,28 +97,31 @@ def decode_function(text):
 
     elif words[0] == "setvol":
         print("Setting volume to " + words[1], type(words[1]))
-        db_value = volume_to_db(int(words[1]))
-        volume.SetMasterVolumeLevel(db_value, None)
+        volume.SetMasterVolumeLevelScalar(int(words[1]) / 100.0, None)
+
     elif words[0] == "shutdown":
         return_message="shutting down"
         os.system("shutdown /s /t 5")
+
     elif words[0] == "key":
+        # try if value error
         keys=words[1].split(' ')
         for key in keys:
-            keyboard.press(key)
-        time.sleep(0.05)
-        for key in keys:
-            keyboard.release(key)
-    elif words[0] == "keypress":
-        keys=words[1].split(' ')
-        for key in keys:
-            keyboard.press(key)
-            keypressed.add(key)
-    elif words[0] == "keyrelease":
-        keys = words[1].split(' ')
-        for key in keys:
-            keyboard.release(key)
-            keypressed.remove(key)
+            try:
+                keyboard.press(key)
+            except ValueError:
+                print("Key not found")
+                break
+            time.sleep(0.05)
+            for key in keys:
+                keyboard.release(key)
+    
+    elif words[0] == "mouse":
+        if words[1] == "leftclick":
+            pyautogui.click()
+        elif words[1] == "rightclick":
+            pyautogui.rightClick()
+
     else:
         print("Command not found")
     return return_message

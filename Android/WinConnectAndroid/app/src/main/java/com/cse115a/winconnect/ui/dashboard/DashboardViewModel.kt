@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class DashboardViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is da hardware monitor Fragment"
+        value = "Welcome to the Hardware Monitor Page"
     }
     val text: LiveData<String> = _text
 }

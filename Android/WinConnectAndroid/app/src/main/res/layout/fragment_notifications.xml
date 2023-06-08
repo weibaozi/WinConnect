@@ -22,6 +22,19 @@
 
 
     <ImageButton
+        android:id="@+id/upButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/up_arrow"
+        android:text="UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageButton
         android:id="@+id/rightButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -32,7 +45,20 @@
         app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
+        app:layout_constraintVertical_bias="0.442" />
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/left_arrow"
+        android:text="Left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
 
     <ImageButton
         android:id="@+id/downButton"
@@ -45,36 +71,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595" />
-
-    <ImageButton
-        android:id="@+id/upButton"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/up_arrow"
-        android:text="UP"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
-
-    <ImageButton
-        android:id="@+id/leftButton"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/left_arrow"
-        android:text="Left"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/text_notifications"
+        android:id="@+id/mediactrl_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/playButton"
@@ -138,5 +138,128 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.235" />
+
+    <ImageButton
+        android:id="@+id/alttabButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/alt_tab_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <ImageButton
+        android:id="@+id/fullscreenButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/fullscreen_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <ImageButton
+        android:id="@+id/leftclickButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/left_click_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <ImageButton
+        android:id="@+id/enterButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/enter_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageButton
+        android:id="@+id/ctrlwButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ctrlw_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageButton
+        android:id="@+id/customkbButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom_kb_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <ImageButton
+        android:id="@+id/spaceButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/space_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageButton
+        android:id="@+id/rightclickButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/right_click_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <ImageButton
+        android:id="@+id/escapeButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/esc_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <EditText
+        android:id="@+id/customkbcmd"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:ems="5"
+        android:hint="Command (Key1 + Key2 + KeyN)"
+        android:inputType="text"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
