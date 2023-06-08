@@ -15,7 +15,7 @@ import webbrowser
 
  
 allshortcuts = get_shortcut_path()
-
+keypressed = set()
 # print(allshortcuts["calc"])
 
 # Get default audio device using PyCAW (For volume controls)
