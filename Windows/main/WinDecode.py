@@ -121,6 +121,17 @@ def decode_function(text):
             pyautogui.click()
         elif words[1] == "rightclick":
             pyautogui.rightClick()
+            
+    elif words[0] == "keypress":
+        keys=words[1].split(' ')
+        for key in keys:
+            keyboard.press(key)
+            keypressed.add(key)
+    elif words[0] == "keyrelease":
+        keys = words[1].split(' ')
+        for key in keys:
+            keyboard.release(key)
+            keypressed.remove(key)
 
     else:
         print("Command not found")
