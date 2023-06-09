@@ -220,7 +220,7 @@ class HomeFragment : Fragment() {
 
         app2.setOnClickListener {
             textView.text = "Launched Microsoft PowerPoint"
-            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "startweb https://docs.google.com/presentation/d/158Gij-rygCxYFyXFikpBvbxnpW8xUYdD/edit?usp=sharing&ouid=117900377788525540903&rtpof=true&sd=true")
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "startweb https://docs.google.com/presentation/d/1BqXqLnPD2BgGzuHK9pziotPJBZbsAgi7sfMKMPOL1qc/edit?usp=sharing")
         }
 
         app3.setOnClickListener {

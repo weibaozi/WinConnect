@@ -142,6 +142,16 @@ class NotificationsFragment : Fragment(){
             Log.d("Buttons", "f")
         }
 
+        fullscreenButton.setOnLongClickListener {
+            // Handle long press event here
+            mediaStatus.text = "Fulscreen Button Long Pressed (F11)"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key f11")
+            Log.d("Buttons", "fullscreen long press")
+
+            // Return true to consume the long press event
+            true
+        }
+
         alttabButton.setOnClickListener {
             mediaStatus.text = "Alt+Tab Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key alt+tab")
@@ -152,6 +162,15 @@ class NotificationsFragment : Fragment(){
             mediaStatus.text = "Ctrl+W Button Pressed"
             TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key ctrl+w")
             Log.d("Buttons", "ctrlw")
+        }
+        ctrlwButton.setOnLongClickListener {
+            // Handle long press event here
+            mediaStatus.text = "Alt+F4 Button Pressed"
+            TCPConnect(SharedVars.ipAddressString, SharedVars.portNumber, "key alt+f4")
+            Log.d("Buttons", "Alt+F4 Button Pressed")
+
+            // Return true to consume the long press event
+            true
         }
 
         spaceButton.setOnClickListener {
