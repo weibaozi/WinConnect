@@ -109,6 +109,7 @@ def decode_function(text):
         for key in keys:
             try:
                 keyboard.press(key)
+                time.sleep(0.3)
             except ValueError:
                 print("Key not found")
                 break
@@ -138,5 +139,5 @@ def decode_function(text):
     return return_message
     #return_message="test!!!!!!!!"
 
-# command = input("Enter command: ")
-# decode_function(command)
+command = input("Enter command: ")
+decode_function(command)
